@@ -22,8 +22,15 @@
 
 
 /* HEADER */
+header {
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 header>section {
-    background-color: #add8e6;
+    background-colors: #add8e6;
 }
 
 .section1 {
@@ -78,7 +85,7 @@ header>section {
 }
 
 .header2 {
-    background-color: #00008b;
+    background-colors: #00008b;
     height: 500px;
     display: flex;
     align-items: center;
