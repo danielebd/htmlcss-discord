@@ -154,6 +154,16 @@ header #section-header span {
 
 }
 
+.wave1 {
+    background-color: #f6f6f6;
+    fill: currentColor;
+}
+
+.wave2:hover{
+    fill: #f6f6f6;
+}
+
+
 .container2 {
     height: 600px;
     background-color: #f6f6f6;
@@ -247,6 +257,7 @@ main .section p {
 main .bigbox3 p {
     text-align: center;
 }
+
 main .bigbox3 h3 {
     margin-top: 630px;
     background-image: url("../img/stars.svg");
@@ -295,19 +306,21 @@ footer {
 .boxred {
     align-self: flex-start;
 }
-.boxred > h2 {
+
+.boxred>h2 {
     color: #7289d9;
     font-size: 28px;
 }
+
 .boxred li img {
     width: 20px;
     vertical-align: middle;
 }
 
-.boxred > li {
+.boxred>li {
     list-style-type: none;
     color: white;
-    font-size:13px;
+    font-size: 13px;
 }
 
 .boxred div {
